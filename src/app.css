@@ -1,3 +1,65 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+body {
+    padding: 50px;
+    /* background-color: blue; */
+    height: 1000px;
+}
+.top-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFBF61;
+    width: 100%;
+    height: 120px;
+}
+.prod-list {
+    position: relative;
+    margin-top: 100px;
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 100%;
+
+    p {
+        font-size: 40px;
+        color: #605678;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+}
+.bread-list {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    /* background-color: #39e623; */
+}
+.bread {
+    position: relative;
+    /* background-color: black; */
+    width: 281px;
+    height: 337px;
+    border: 4px solid #D8D2C2;
+    padding: 10px;
+
+    img {
+        position: relative;
+        background-color: brown;
+        width: 100%;
+        height: 220px;
+        margin-bottom: 30px;
+    }
+    h6, h4 {
+        margin-top: 10px;
+        text-transform: capitalize;
+    }
+    h4 {
+        font-weight: bold;
+    }
+}
